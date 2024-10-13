@@ -11,7 +11,7 @@ def load_model(model_path):
     return model
 
 # Specify the path to the model
-model = load_model(r"C:\Users\Jay\Desktop\sweety\plant_classifier_model.h5")  # Update with the correct path
+model = load_model(r"C:\User\plant_classifier_model.h5")  # Update with the correct path
 
 # Get the class names from the model's training data (update with your classes)
 class_names =  ['Amaranthus Green', 'Balloon vine', 'Betel Leaves', 'Celery', 'Chinese Spinach', 'Coriander Leaves', 'Curry Leaf', 'Dwarf Copperleaf (Green)']  # Replace with actual class names
